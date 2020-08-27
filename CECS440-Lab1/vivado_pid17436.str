@@ -1,0 +1,134 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 17436
+License: Customer
+
+Current time: 	Thu Aug 27 12:46:55 PDT 2020
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3840x2160
+Screen resolution (DPI): 300
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=36
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	mrjdo
+User home directory: C:/Users/mrjdo
+User working directory: C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/mrjdo/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/mrjdo/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/mrjdo/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/vivado.log
+Vivado journal file location: 	C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/vivado.jou
+Engine tmp dir: 	C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/.Xil/Vivado-17436-DESKTOP-VJ5IPSS
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	220 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,022 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1433 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 148 MB (+153049kb) [00:00:12]
+// [Engine Memory]: 1,022 MB (+919857kb) [00:00:12]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mrjdo\Downloads\Vivado\Project\CECS440-Lab1\CECS440-Lab1.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 93 MB. Current time: 8/27/20, 12:46:56 PM PDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  5720 ms.
+// Tcl Message: open_project C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/mrjdo/Downloads/Vivado/Project/00 - Test/proj2_vivado/CECS440-Lab1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 1035.867 ; gain = 0.000 
+// Project name: CECS440-Lab1; location: C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1; part: xc7a100tcsg324-2L
+dismissDialog("Open Project"); // bz (cs)
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aA (aL, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 435ms to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 171 MB (+15546kb) [00:00:39]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (adder_2bit.bd) elapsed time: 0.2s
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_2bit (adder_2bit.bd)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_2bit (adder_2bit.bd), adder_2bit_FA_1_0 (Module Reference Wrapper)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (adder_2bit.bd) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  3795 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 1035.867 ; gain = 0.000 
+dismissDialog("Open Block Design"); // bz (cs)
