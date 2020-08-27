@@ -1,12 +1,13 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x0",
+      "boundary_crc": "0xF700663CAC719654",
       "device": "xc7a100tcsg324-2L",
       "name": "adder_2bit",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2020.1"
+      "tool_version": "2020.1",
+      "validated": "true"
     },
     "design_tree": {
       "FA_0": "",
@@ -32,7 +33,13 @@
       "Sum": {
         "direction": "O",
         "left": "2",
-        "right": "0"
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "3",
+            "value_src": "ip_prop"
+          }
+        }
       }
     },
     "components": {

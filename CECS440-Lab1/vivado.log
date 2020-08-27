@@ -21,7 +21,9 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
 open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 1034.105 ; gain = 0.000
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 27 12:52:29 2020...
+440-Lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd}
 Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_0
 Adding component instance block -- xilinx.com:module_ref:FA:1.0 - FA_1
 Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
@@ -32,3 +34,12 @@ Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
 Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
 Successfully read diagram <adder_2bit> from BD file <C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd>
 open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 1035.867 ; gain = 0.000
+make_wrapper -files [get_files C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/adder_2bit.bd] -top
+Wrote  : <C:\Users\mrjdo\Downloads\Vivado\Project\CECS440-Lab1\CECS440-Lab1.srcs\sources_1\bd\adder_2bit\adder_2bit.bd> 
+Wrote  : <C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/ui/bd_55bf6dec.ui> 
+VHDL Output written to : C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/synth/adder_2bit.v
+VHDL Output written to : C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/sim/adder_2bit.v
+VHDL Output written to : C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/hdl/adder_2bit_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1124.461 ; gain = 88.594
+add_files -norecurse C:/Users/mrjdo/Downloads/Vivado/Project/CECS440-Lab1/CECS440-Lab1.srcs/sources_1/bd/adder_2bit/hdl/adder_2bit_wrapper.v
+update_compile_order -fileset sources_1
